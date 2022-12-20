@@ -30,7 +30,7 @@ export default function Main({}: Props) {
                 <Cursor cursorColor='#F7ABBA' />
             </h1>
 
-            <div className='pt-5'>
+            <div className='pt-5 mt-10'>
                 <Link href="#about">
                     <button className='mainButton'>About</button>
                 </Link>

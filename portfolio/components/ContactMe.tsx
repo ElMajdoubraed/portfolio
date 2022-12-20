@@ -1,5 +1,5 @@
 import React from 'react'
-import { PhoneIcon, MapIcon, MailIcon } from '@heroicons/react/solid'
+import { PhoneIcon, MailIcon } from '@heroicons/react/solid'
 import { useForm } from "react-hook-form";
 
 type Props = {}
@@ -39,10 +39,6 @@ export default function ContactMe({}: Props) {
                     <p className='text-2xl'>+216 29 497 446</p>
                 </div>
                 <div className='flex items-center space-x-5 justify-center'>
-                    <MapIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-                    <p className='text-2xl'>+216 29 497 446</p>
-                </div>
-                <div className='flex items-center space-x-5 justify-center'>
                     <MailIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
                     <p className='text-2xl'>+216 29 497 446</p>
                 </div>
@@ -55,7 +51,7 @@ export default function ContactMe({}: Props) {
                 <input {...register("subject")} placeholder='Subject' className='cntactInput' required type="text" />
 
                 <textarea {...register("message")} placeholder='Message' className='cntactInput' required />
-                <button type='submit' className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit</button>
+                <button type='submit' className='bg-[#F7AB0A] py-4 rounded-md text-black font-bold text-lg'>Submit</button>
             </form>
         </div>
     </div>
