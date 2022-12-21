@@ -24,17 +24,26 @@ function Header({}: Props) {
         className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
-                url='https://twitter.com/jaketrent'
+                className='cursor-pointer'
+                network="facebook"
                 fgColor='gray'
                 bgColor='transparent'
              />
              <SocialIcon 
-                url='https://twitter.com/jaketrent'
+                network='github'
+                className='cursor-pointer'
                 fgColor='gray'
                 bgColor='transparent'
              />
              <SocialIcon 
-                url='https://twitter.com/jaketrent'
+                className='cursor-pointer'
+                network='linkedin'
+                fgColor='gray'
+                bgColor='transparent'
+             />
+             <SocialIcon 
+                className='cursor-pointer'
+                network='whatsapp'
                 fgColor='gray'
                 bgColor='transparent'
              />

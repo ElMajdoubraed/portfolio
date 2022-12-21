@@ -13,7 +13,7 @@ export default function Skill({ directionLeft }: Props) {
           x: directionLeft? -200: 200,
           opacity: 0
         }}
-        transition = {{ duration: 1 }}
+        transition = {{ duration: 0.5 }}
         whileInView = {{ opacity : 1, x:0 }}
         src = ""
         alt=''
